@@ -465,7 +465,7 @@ nav {
     font-size: 35px;
     line-height: 45px;
     color: #FFFFFF;
-   
+    max-width: 30.7rem;
 }
 .schedule3{
     font-family: Montserrat;
