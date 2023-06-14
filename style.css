@@ -635,6 +635,7 @@ button:hover{
 
 #data:hover,#sales:hover,#field:hover{
     background-color: #3d597c;
+    color: azure;
     opacity: 0.90;
 }
 #schedule:hover,#schedule2:hover,.schedule3:hover{
