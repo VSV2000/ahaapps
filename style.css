@@ -1,0 +1,638 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./static/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url(./avenir_ff/AvenirLTStd-Book.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: relative;
+    background-image: url(mainimage.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+
+}
+.container-fluid{
+    max-width: 1400px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+#mainlogo{
+    padding-left: 80px;
+}
+
+.nav-links {
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    padding: 8px 12px;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Montserrat;
+}
+
+#schedule {
+    font-family: Montserrat;
+    background-color: #1FA1DB;
+    width: 224px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 21.94px;
+}
+
+#schedule2 {
+    font-family: Montserrat;
+    background-color: #1FA1DB;
+    width: 224px;
+    height: 60px;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 21.94px;
+}
+
+.middlecontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 14%;
+    row-gap: 20px;
+}
+
+#middletext {
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: top;
+
+}
+
+#middlepara {
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 25px;
+    vertical-align: top;
+    text-align: center;
+    line-height: 35px;
+}
+
+.midcalc {
+    padding-top: 60px;
+}
+
+#calc {
+    padding-top: 30px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    vertical-align: top;
+    color: #ffffff;
+}
+
+.headfooter {
+    background-color: #1FA1DB;
+}
+
+.hfcontents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.25rem;
+}
+
+#hf1 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    float: right;
+    padding-top: 1.50rem;
+    padding-left: 1rem;
+}
+
+.maincontent1 {
+    display: flex;
+    align-items: center;
+    gap: 19%;
+}
+
+#cnth {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #231F20;
+
+}
+
+#cntp {
+    font-family: Avenir;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 3px;
+
+}
+
+#imagert {
+    width: 585px;
+    height: 500px;
+    border-radius: 10px;
+    padding-top: 100px;
+}
+
+
+.hm2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #231F20;
+    text-align: center;
+}
+
+.mcbox {
+    display: flex;
+    gap: 91px;
+}
+
+#bcnt {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #231F20;
+}
+
+#bcntp {
+    font-family: Avenir;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 3px;
+
+}
+
+#data {
+    width: 204px;
+    height: 50px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid #1FA1DB;
+    border-radius: 5px;
+    color: #1FA1DB;
+    background-color: #F8F8F8;
+    line-height: 21.94px;
+
+}
+
+#sales {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    width: 111px;
+    height: 50px;
+    border: 2px solid #1FA1DB;
+    border-radius: 5px;
+    color: #1FA1DB;
+    background-color: #F8F8F8;
+    line-height: 21.94px;
+}
+
+#field {
+    width: 179px;
+    height: 50px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid #1FA1DB;
+    border-radius: 5px;
+    color: #1FA1DB;
+    background-color: #F8F8F8;
+    line-height: 21.94px;
+}
+
+.main2 {
+    margin-top: 100px;
+    background-color: #F8F8F8;
+    padding-bottom: 100px;
+
+}
+
+
+.headingmain2 {
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+#data,
+#sales,
+#field {
+    margin-top: 30px;
+}
+
+.testimonialmain {
+    background-image: url(testimonial.png);
+}
+
+.testimonial {
+    display: flex;
+    gap: 61px;
+    padding-top: 160px;
+}
+
+.left-testimonial {
+    width: 570px;
+    height: 291px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+
+.right-testimonial {
+    width: 570px;
+    height: 291px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+
+}
+
+.headingperson p {
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #ffffff
+}
+
+.contentperson p {
+    font-family: Avenir;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+#hm3 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #231F20;
+}
+
+.main3{
+    display: flex;
+}
+.headmain3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 48%;
+    padding-top: 100px;
+}
+.iconrhm {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #FFFFFF;
+    background-color: #1FA1DB;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.head{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+.para{
+    font-family: Avenir;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.righthm{
+    margin-left: 7%;
+}
+.iconhead{
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+.rhmcontents{
+    padding: 17%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 5%;
+}
+.numbers{
+    padding: 4px;
+}
+.main3contents{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+.boxp{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    position: absolute;
+    padding: 39px;
+}
+.box1{
+    border: 1px solid #1FA1DB;
+    width: 380px;
+    height: 130px;
+    border-radius: 20px;
+    position: relative;
+    top: 10;
+}
+.main3footer{
+    padding: 100px 0px;
+}
+.tick{
+    position: absolute;
+    left: 45%;
+    bottom: 83%;
+
+}
+.hm2aha{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #231F20;
+    text-align: center;
+}
+.paraaha p{
+    font-family: Avenir;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 80%;
+    padding: 10px 0px;
+}
+.paraaha{
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.paraahaimg{
+    margin-top: 4rem;
+}
+.contentaha{
+    display: flex;
+}
+.whyaha{
+    padding-top: 100px;
+    background-color: #F8F8F8;
+}
+.fieldoperations{
+    background-color: #1FA1DB;
+    padding: 100px 0px;
+}
+.fieldopcontents{
+    display: flex;
+    align-items: center;
+    column-gap: 11%;
+}
+.fphead{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+
+.fophead{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 45px;
+    color: #FFFFFF;
+   
+}
+.schedule3{
+    font-family: Montserrat;
+    background-color: #FFFFFF;
+    width: 224px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    color: #1FA1DB;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 21.94px;
+}
+#happy{
+  width: 100%;
+  border-radius: 10px;
+}
+.logoflex{
+    padding: 107px 0px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    column-gap: 29px;
+}
+.boxcompany{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 278px;
+    height: 150px;
+    border: 1px solid #EEEEEE;
+}
+.companies{
+    padding-left: 14%;
+}
+
+.footermain{
+    background-color: #231F20;
+    padding-bottom: 60px;
+}
+.f{
+    font-family: Montserrat;
+    color: #8C8C8C;
+    float: right;
+    padding-left: 15px;
+}
+.footer1{
+    padding: 70px 0px;
+}
+.footerright{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    column-gap: 8rem;
+}
+#hrfoot{
+    width: 1200px;
+    height: 1px;
+    border: 1px solid #DDDDDD;
+    border-color: #DDDDDD;
+    opacity: 20%;
+}
+
+.navfooter{
+    display: flex;
+    column-gap: 30px;
+}
+
+.navfooter a{
+    font-family: Montserrat;
+    font-weight: 500;
+    padding-top: 30px;
+    font-size: 14px;
+    color: #8C8C8C;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer2{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 31px;
+    justify-content: space-between;
+}
+
+#f3para{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    color: #8C8C8C;
+}
+
+#num{
+    color:#1FA1DB;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+
+}
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#mail{
+    color:#1FA1DB;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+.footer3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+#copy{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    color: #8C8C8C;
+
+}
+.footerright1{
+    display: flex;
+    align-items: center;
+}
+.logosocial{
+    text-align: center;
+    display: flex;
+    column-gap: 10px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.email{
+    display: flex;
+    align-items: flex-start;
+    column-gap: 5px;
+}
+.phoneandemail{
+    display: flex;
+    column-gap: 2.7rem;
+}  
+.logosocial a{
+    cursor: pointer;
+}
+
+.nav-links ul li a:hover{
+    background-color: #93b7c1;
+    transition: 0.50s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #3d597c;
+    color: azure;
+    transition: 0.50s;
+}
+
+#data:hover,#sales:hover,#field:hover{
+    background-color: #3d597c;
+    opacity: 0.90;
+}
+#schedule:hover,#schedule2:hover,.schedule3:hover{
+    background-color: rgb(65, 131, 155);
+}
