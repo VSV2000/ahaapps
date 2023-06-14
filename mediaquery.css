@@ -111,6 +111,7 @@
         font-size: 20px;
         line-height: 31px;
         color: #FFFFFF;
+        text-align: center;
         
     }
     .email {
@@ -212,6 +213,15 @@
 
 .imageperson1{
     margin-left: 4rem;
+}
+.fieldopcontents {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#happy{
+    margin-top: 3rem;
 }
 
 .nav-links ul li a:hover{
