@@ -374,7 +374,7 @@ nav {
     align-items: center;
 }
 .rhmcontents{
-    padding: 17%;
+    padding: 15.1%;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -396,6 +396,7 @@ nav {
     line-height: 26px;
     position: absolute;
     padding: 39px;
+    text-align: center;
 }
 .box1{
     border: 1px solid #1FA1DB;
